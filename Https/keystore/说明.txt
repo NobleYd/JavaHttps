@@ -1,0 +1,9 @@
+-- generate
+
+keytool -genkey -alias alias -keyalg RSA -keysize 1024 -keystore keystore.jks -validity 365
+
+
+-- server.jks 
+
+keystore password:keystorepswd
+certificate password:password
